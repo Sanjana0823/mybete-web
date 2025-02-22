@@ -1,18 +1,29 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './index.css';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Features from './components/Features';
 import Footer from './components/Footer';
+import ComingSoon from './components/ComingSoon';
 
 const App: React.FC = () => {
   return (
-    <div className="App">
-      <Header />
-      <Hero />
-      <Features />
-      <Footer />
-    </div>
+    <Router>
+      <div className="App">
+        <Header />
+        <Routes>
+          <Route path="/" element={
+            <>
+              <Hero />
+              <Features />
+            </>
+          } />
+          <Route path="/coming-soon" element={<ComingSoon />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

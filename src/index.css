@@ -9,3 +9,69 @@ header, footer {
   padding: 20px;
   color: white;
 }
+
+.hero {
+  background-color: #ebf8ff;
+  padding: 40px 0;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  margin-bottom: 1.5rem;
+}
+
+.hero button {
+  background-color: #007bff;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.features {
+  background-color: #fff;
+  padding: 40px 0;
+}
+
+.features h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.features ul {
+  list-style-type: disc;
+  padding-left: 2rem;
+}
+
+.features li {
+  margin-bottom: 0.5rem;
+}
+
+.coming-soon {
+  background-color: #f7fafc;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.coming-soon h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.coming-soon button {
+  background-color: #007bff;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
