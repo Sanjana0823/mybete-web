@@ -1,0 +1,44 @@
+.user-categories {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .user-categories h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .categories {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .category {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100vw; /* Adjust the width as needed */
+    text-align: center;
+  }
+  
+  .category:hover {
+    background-color: #06333B;
+    color: white;
+  }
+  
+  .category h3 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .category img {
+    width: 25vw; 
+    height: 25vh;
+    object-fit: cover;
+    border-radius: 5%;
+    margin-bottom: 10px;
+  }
+  
