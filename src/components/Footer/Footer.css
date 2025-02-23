@@ -1,0 +1,54 @@
+.footer {
+    background-color: #245D6B;
+    color: white;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items to the top */
+    margin-bottom: 20px;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .footer-section.contact {
+    flex: 2; /* Allow contact section to be wider */
+  }
+  
+  .footer-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section p {
+    margin: 5px 0;
+  }
+  
+  .footer-section a {
+    color: #96D8E3;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-section a:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+  
+  .footer-section svg {
+    margin-right: 8px; /* Add some space between the icon and the text */
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    border-top: 1px solid #555;
+    padding-top: 10px;
+  }
+  
