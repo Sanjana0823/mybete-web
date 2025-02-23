@@ -11,9 +11,9 @@ const AboutUs: React.FC = () => {
   const developers = [
     { name: 'Developer 1', role: 'Full-Stack Developer', image: dev1 },
     { name: 'Developer 2', role: 'Frontend Developer', image: dev2 },
-    { name: 'Developer 3', role: 'Frontend Developer', image: dev3 },
+    { name: 'Developer 3', role: 'Full-Stack Developer', image: dev3 },
     { name: 'Developer 4', role: 'Full-Stack Developer', image: dev4 },
-    { name: 'Developer 5', role: 'Full-Stack Developer', image: dev5 },
+    { name: 'Developer 5', role: 'Frontend Developer', image: dev5 },
     { name: 'Developer 6', role: 'Frontend Developer', image: dev6 },
   ];
 
