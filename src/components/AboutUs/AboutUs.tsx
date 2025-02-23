@@ -12,9 +12,9 @@ const AboutUs: React.FC = () => {
     { name: 'Developer 1', role: 'Full-Stack Developer', image: dev1 },
     { name: 'Developer 2', role: 'Frontend Developer', image: dev2 },
     { name: 'Developer 3', role: 'Frontend Developer', image: dev3 },
-    { name: 'Developer 4', role: 'UI/UX Designer', image: dev4 },
-    { name: 'Developer 5', role: 'Project Manager', image: dev5 },
-    { name: 'Developer 6', role: 'QA Engineer', image: dev6 },
+    { name: 'Developer 4', role: 'Full-Stack Developer', image: dev4 },
+    { name: 'Developer 5', role: 'Full-Stack Developer', image: dev5 },
+    { name: 'Developer 6', role: 'Frontend Developer', image: dev6 },
   ];
 
   const handleBackToTopClick = () => {
