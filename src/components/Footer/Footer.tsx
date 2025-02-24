@@ -1,35 +1,39 @@
 import React from 'react';
 import './Footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInstagram, faWhatsapp, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram, faWhatsapp, faLinkedin, faFacebook, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 const Footer: React.FC = () => {
   return (
     <footer className="footer">
-      <div className="footer-content">
+      <div className="footer-top">
+        <div className="footer-section about">
+          <h3>About MyBete</h3>
+          <p>MyBete is your comprehensive solution for diabetes management. Stay healthy, track your progress, and get personalized insights to improve your lifestyle.</p>
+        </div>
         <div className="footer-section contact">
           <h3>Contact Us</h3>
-          <p>Email: </p>
-          <p>Phone: </p>
-          <p>Address: </p>
+          <p>Email: <a href="mailto:mybeteapp@gmail.com">mybeteapp@gmail.com</a></p>
         </div>
         <div className="footer-section social-media">
           <h3>Follow Us</h3>
-          <p>
-            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon icon={faInstagram} /> Instagram
+          <div className="social-icons">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faInstagram} />
             </a>
-          </p>
-          <p>
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon icon={faWhatsapp} /> Whatsapp
+            <a href="https://whatsapp.com" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faWhatsapp} />
             </a>
-          </p>
-          <p>
             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
+              <FontAwesomeIcon icon={faLinkedin} />
             </a>
-          </p>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faFacebook} />
+            </a>
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faTwitter} />
+            </a>
+          </div>
         </div>
       </div>
       <div className="footer-bottom">

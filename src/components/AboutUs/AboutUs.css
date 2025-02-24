@@ -1,43 +1,69 @@
 .about-us {
-    text-align: center;
-    padding: 40px 20px;
-  }
-  
-  .about-us h2 {
-    font-size: 2.5rem;
-    margin-bottom: 2rem;
-  }
-  
-  .developers {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-  }
-  
-  .developer {
-    text-align: center;
-    width: 150px;
-  }
-  
-  .developer-image {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 10px;
-  }
-  
-  .developer h3 {
-    font-size: 1.25rem;
-    margin: 0;
-  }
-  
-  .developer p {
-    margin: 0;
-    font-size: 1rem;
-    color: #666;
-  }
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.about-us h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.developers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.developer {
+  text-align: center;
+  width: 150px;
+  transition: transform 0.3s ease;
+}
+
+.developer a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.developer:hover {
+  transform: scale(1.05);
+}
+
+.developer-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.developer:hover .developer-image {
+  transform: scale(1.1);
+}
+
+.developer h3 {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.developer p {
+  margin: 0;
+  font-size: 1rem;
+  color: #666;
+}
+
+.linkedin-icon {
+  color: #0077b5;
+  font-size: 1.5rem;
+  margin-top: 5px;
+  transition: color 0.3s ease;
+}
+
+.developer:hover .linkedin-icon {
+  color: #005983;
+}
 
   .back-to-top {
     background-color: #c0c0c0;

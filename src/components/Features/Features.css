@@ -1,46 +1,66 @@
 .user-categories {
-    text-align: center;
-    padding: 40px 20px;
-  }
-  
-  .user-categories h2 {
-    font-size: 2.5rem;
-    margin-bottom: 2rem;
-  }
-  
-  .categories {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-  }
-  
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.user-categories h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap; /* Ensure proper alignment on smaller screens */
+}
+
+.category {
+  background-color: #F1FAEE;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  width: calc(33.33% - 40px); /* Adjust the width to fit three categories in a row with a gap */
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, background-color 0.3s ease; /* Add transition for transform and background-color */
+}
+
+.category:hover {
+  background-color: #245D6B;
+  color: white;
+  transform: scale(1.05); /* Slightly scale up the category on hover */
+}
+
+.category h3 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.category img {
+  width: 100%; /* Ensure the image takes up the full width of the container */
+  height: auto; /* Maintain the aspect ratio */
+  object-fit: cover;
+  border-radius: 5%;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease; /* Add transition for transform */
+}
+
+.category:hover img {
+  transform: scale(1); /* Slightly scale up the image on hover */
+}
+
+/* Tablet view adjustments */
+@media (max-width: 768px) {
   .category {
-    background-color: #F1FAEE;
-    padding: 20px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    width: 100vw; /* Adjust the width as needed */
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: calc(50% - 20px); /* Adjust the width to fit two categories in a row */
   }
-  
-  .category:hover {
-    
-    background-color: #06333B;
-    color: white;
+}
+
+/* Mobile view adjustments */
+@media (max-width: 480px) {
+  .category {
+    width: calc(100% - 20px); /* Full width on small screens */
+    margin-bottom: 20px; /* Add some space between categories */
   }
-  
-  .category h3 {
-    margin: 0;
-    font-size: 1.5rem;
-  }
-  
-  .category img {
-    width: 25vw; 
-    height: 25vh;
-    object-fit: cover;
-    border-radius: 5%;
-    margin-bottom: 10px;
-  }
-  
+}
