@@ -18,12 +18,7 @@
 .developer {
   text-align: center;
   width: 150px;
-  transition: transform 0.3s ease;
-}
-
-.developer a {
-  text-decoration: none;
-  color: inherit;
+  transition: transform 0.3s ease; /* Add transition for transform */
 }
 
 .developer:hover {
@@ -36,11 +31,6 @@
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 10px;
-  transition: transform 0.3s ease;
-}
-
-.developer:hover .developer-image {
-  transform: scale(1.1);
 }
 
 .developer h3 {
@@ -54,15 +44,22 @@
   color: #666;
 }
 
-.linkedin-icon {
-  color: #0077b5;
-  font-size: 1.5rem;
-  margin-top: 5px;
-  transition: color 0.3s ease;
+.social-icons {
+  margin-top: 10px;
 }
 
-.developer:hover .linkedin-icon {
-  color: #005983;
+.social-icons a {
+  font-size: 1.5rem;
+  margin: 0 5px;
+  transition: color 0.3s ease; /* Add transition for color */
+}
+
+.social-icons .linkedin {
+  color: #0072B1;
+}
+
+.social-icons .github {
+  color: #333;
 }
 
   .back-to-top {
