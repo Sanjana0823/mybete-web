@@ -1,7 +1,7 @@
 .footer {
-  background-color: #282c34;
+  background-color: #245D6B;
   color: white;
-  padding: 40px 20px;
+  /* padding: 40px 20px; */
   text-align: left;
 }
 
@@ -33,12 +33,13 @@
 }
 
 .footer-section a {
-  color: #007bff;
+  color: #96D8E3;
   text-decoration: none;
 }
 
 .footer-section a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  color: #35B4C9;
 }
 
 .footer-section .social-icons {
@@ -47,17 +48,17 @@
 }
 
 .footer-section .social-icons a {
-  color: #007bff;
+  color: #96D8E3;
   font-size: 1.5rem;
 }
 
 .footer-section .social-icons a:hover {
-  color: #0056b3;
+  color: #35B4C9;
 }
 
 .footer-bottom {
   text-align: center;
-  border-top: 1px solid #555;
+  border-top: 1px solid #96D8E3;
   padding-top: 10px;
   margin-top: 20px;
 }
